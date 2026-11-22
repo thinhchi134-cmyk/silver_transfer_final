@@ -25,7 +25,7 @@ semantic = ["sentence-transformers>=3"]
 large-images = ["pyvips[binary]"]
 ocr-local = ["paddleocr>=3.3,<4", "paddlepaddle>=3.2,<4"]
 ocr-cloud = ["google-cloud-vision>=3.10,<4"]
-demo = ["pandas>=2.2"]
+demo = ["pandas>=2.2", "ifcopenshell>=0.8,<0.9"]
 
 [project.scripts]
 silver-transfer = "silver_transfer.cli:main"

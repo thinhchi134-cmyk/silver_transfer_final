@@ -1,0 +1,9 @@
+# Run from the workspace root. Python 3.11 x64 is the tested target.
+# Full Silver Transfer CLI, conversion, indexes, OCR and the Bronze demo.
+./silver_transfer_tổng[recovery,vision,semantic,large-images,ocr-local,ocr-cloud,demo]
+
+# Used by the standalone legacy SVG scripts.
+CairoSVG>=2.7,<3
+
+# Install 7-Zip CLI, ODA File Converter and legacy Cairo native libraries separately.
+# This profile uses the CPU PaddlePaddle runtime. See the README for GPU setup.

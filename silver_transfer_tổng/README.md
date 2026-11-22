@@ -1,5 +1,7 @@
 # Silver Transfer
 
+Từ thư mục workspace, cài toàn bộ dependency Python và CLI bằng `python -m pip install -r .\requirements.txt` trong venv Python 3.11 x64. File tổng lấy dependency của Silver Transfer từ `pyproject.toml` và thêm CairoSVG cho các script SVG cũ. ODA File Converter, 7-Zip CLI và Cairo native cho script cũ cài riêng.
+
 Một CLI cho các bước điền Silver JSONL, phục hồi định dạng khó, tạo index, QA và xuất Parquet. Nhận raw và template qua tham số. Kết quả của mỗi lượt nằm trong một thư mục mới.
 
 ## Chạy trên Windows
